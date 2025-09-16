@@ -1,0 +1,47 @@
+# Exclude local build artifacts and caches
+/build/
+android/app/build/
+ios/build/
+android/.gradle/
+node_modules/
+.pnpm-store/
+
+# Exclude IDE and editor configurations
+.idea/
+.vscode/
+.DS_Store
+
+# Exclude test files
+/coverage/
+/tests/
+/__tests__/
+/__mocks__/
+/reports/
+
+# Exclude system files
+*.log
+*.hprof
+*.stackdump
+
+# Exclude specific dependencies (like Pods for iOS)
+/ios/Pods/
+/ios/Podfile.lock
+/packages/**/RCTThirdPartyFabricComponentsProvider.*
+/packages/rn-tester/Gemfile.lock
+
+# Metro bundler health checks
+.metro-health-check*
+
+# Ignore expo specific stuff
+.expo
+.expo-shared
+
+# Ignore Gradle cache files (Android-specific)
+.gradle
+
+
+# Additional SDKs
+/packages/react-native/sdks/hermes
+/packages/react-native/sdks/hermes-engine/
+
+

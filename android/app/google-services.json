@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "991570450176",
+    "project_id": "myfame-925a7",
+    "storage_bucket": "myfame-925a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991570450176:android:311a3c6f029d89fae985e5",
+        "android_client_info": {
+          "package_name": "com.myfame.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991570450176-au0gvcg1eces2gpbm7q86md9f77vh907.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myfame.android",
+            "certificate_hash": "bd9e149b4ba42fd8d716b96ab93c16b19d81b0f3"
+          }
+        },
+        {
+          "client_id": "991570450176-v8tnr8409ue0ns6pbi0sttb1476m7li2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myfame.android",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "991570450176-828hgm6d47bj6f15ev8bmhkb4dpedrb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4s-eSk3EYaBjeMtezbMuqH28U_5sCfEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991570450176-828hgm6d47bj6f15ev8bmhkb4dpedrb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
