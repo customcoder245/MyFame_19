@@ -1,0 +1,72 @@
+<div class="cart__item" data-key="44000785629361:186b1a4fc99e40845aa884947d95ee6e" bis_skin_checked="1">
+  <div class="cart__image" bis_skin_checked="1">
+    
+  </div>
+  <div class="cart__item-details" bis_skin_checked="1">
+    <div class="cart__item-title" bis_skin_checked="1">
+      <a href="/products/option-set-201245-buttons-1?variant=44000785629361" class="cart__item-name">
+        No. Of Pets
+      </a><div class="cart__item--variants" bis_skin_checked="1"><div bis_skin_checked="1"><span>Title:</span> 2</div></div><div class="cart__item--variants" bis_skin_checked="1">
+          
+        </div>
+        
+
+        
+
+        
+      
+
+    </div>
+    <div class="cart__item-sub" bis_skin_checked="1">
+      <div bis_skin_checked="1">
+        <div class="js-qty__wrapper gpo-hidden" bis_skin_checked="1">
+          <label for="cart_updates_44000785629361:186b1a4fc99e40845aa884947d95ee6e" class="hidden-label">Quantity</label>
+          <input type="text" id="cart_updates_44000785629361:186b1a4fc99e40845aa884947d95ee6e" name="updates[]" class="js-qty__num" value="1" min="0" pattern="[0-9]*" data-id="44000785629361:186b1a4fc99e40845aa884947d95ee6e">
+          <button type="button" class="js-qty__adjust js-qty__adjust--minus" aria-label="Reduce item quantity by one">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-minus" viewBox="0 0 64 64"><path class="cls-1" d="M55 32H9"></path></svg>
+              <span class="icon__fallback-text" aria-hidden="true">−</span>
+          </button>
+          <button type="button" class="js-qty__adjust js-qty__adjust--plus" aria-label="Increase item quantity by one">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 64 64"><path class="cls-1" d="M32 9v46m23-23H9"></path></svg>
+              <span class="icon__fallback-text" aria-hidden="true">+</span>
+          </button>
+        </div>
+
+                              
+        <div class="cart__remove" bis_skin_checked="1">
+          <a href="/cart/change?id=44000785629361:186b1a4fc99e40845aa884947d95ee6e&amp;quantity=0" class="text-link gpo-hidden">
+            Remove
+          </a>
+        </div>
+      </div>
+
+      <div class="cart__item-price-col text-right" bis_skin_checked="1">
+        
+          <span class="cart__price"><span aria-hidden="true">Rs. 1,700.00</span>
+<span class="visually-hidden">Rs. 1,700.00</span>
+</span>
+          
+        
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+cvfsfsdfsdfdfdf 
+
+var cartItems = document.querySelectorAll('.cart__item');
+
+// Loop through each cart item
+cartItems.forEach(function(item) {
+    // Find the anchor tag within the current cart item
+    var anchorTag = item.querySelector('a');
+    
+    // Check if the anchor tag exists and contains the text "No. Of Pets"
+    if (anchorTag && anchorTag.textContent.trim() === 'No. Of Pets') {
+        // Hide the parent div of the anchor tag
+        item.style.display = 'none';
+    }
+});

@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.myfame.android",
+    "sha256_cert_fingerprints": [
+  "E9:97:32:5F:0F:E6:33:1C:87:3E:4E:9D:4F:69:32:D7:1C:AA:13:E9:6F:04:A0:A1:DD:53:30:3C:B5:D2:7F:1D"
+]
+  }
+}]
